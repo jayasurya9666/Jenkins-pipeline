@@ -4,8 +4,8 @@ pipeline {
 
         stage('Clone Repo') {
           steps {
-            sh 'rm -rf packer-terraform-jenkins-docker'
-            sh 'git clone git@github.com:mavrick202/packer-terraform-jenkins-docker.git'
+            sh 'rm -rf Jenkins-pipeline'
+            sh 'git clone https://github.com/jayasurya9666/Jenkins-pipeline.git'
             }
         }
 		
