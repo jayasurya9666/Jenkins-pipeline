@@ -14,7 +14,7 @@ pipeline {
             
             sh 'pwd'
             sh 'ls -al'
-            sh 'cp /var/lib/jenkins/workspace/Jenkins/Jenkins-pipeline*.* .'
+            sh 'cp /var/lib/jenkins/workspace/Jenkins/*.* .'
             sh 'ls -al'
             sh 'packer build packer.json'
             }
