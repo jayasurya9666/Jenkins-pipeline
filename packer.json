@@ -4,7 +4,7 @@
     "aws_secret_key": "{{env `AWS_SECRET_ACCESS_KEY`}}",
     "us_east_1_ami": "ami-09e67e426f25ce0d7",
     "name": "aws-docker-ce-base",
-    "us_east_1_name": "ubuntu-xenial-docker-ce-base",
+    "us_east_1_name": "ubuntu-debian-docker-ce-base",
     "ssh_username": "ubuntu"
   },
   "builders": [
